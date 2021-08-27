@@ -1,0 +1,28 @@
+{
+	"tareas":[
+		{
+			"id":1,
+			"tittle": "Crear tarea 1",
+			"persona":"persona",
+			"state": "pendiente",
+			"deadline": 1633321591,
+			"created": 1630024021
+		},
+		{
+			"id":2,
+			"tittle": "Crear tarea 2",
+			"persona":"persona",
+			"state": "enProceso",
+			"deadline": 1633321591,
+			"created": 1630024021
+		},
+		{
+			"id":3,
+			"tittle": "Crear tarea 3",
+			"persona":"persona",
+			"state": "terminado",
+			"deadline": 1633321591,
+			"created": 1630024021
+		}
+	]
+}
