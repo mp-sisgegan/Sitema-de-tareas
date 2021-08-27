@@ -3,7 +3,15 @@
 		{
 			"id":1,
 			"tittle": "Crear tarea 1",
-			"persona":"persona",
+			"persona":"Melody Pasten",
+			"state": "pendiente",
+			"deadline": 1633321591,
+			"created": 1630024021
+		},
+		{
+			"id":5,
+			"tittle": "Crear tarea 5",
+			"persona":"Melody Pasten",
 			"state": "pendiente",
 			"deadline": 1633321591,
 			"created": 1630024021
@@ -11,7 +19,15 @@
 		{
 			"id":2,
 			"tittle": "Crear tarea 2",
-			"persona":"persona",
+			"persona":"Melody Pasten",
+			"state": "enProceso",
+			"deadline": 1633321591,
+			"created": 1630024021
+		},
+		{
+			"id":4,
+			"tittle": "Crear tarea 4",
+			"persona":"Melody Pasten",
 			"state": "enProceso",
 			"deadline": 1633321591,
 			"created": 1630024021
@@ -19,8 +35,16 @@
 		{
 			"id":3,
 			"tittle": "Crear tarea 3",
-			"persona":"persona",
+			"persona":"Melody Pasten",
 			"state": "terminado",
+			"deadline": 1633321591,
+			"created": 1630024021
+		},
+		{
+			"id":6,
+			"tittle": "Crear tarea 6",
+			"persona":"Melody Pasten",
+			"state": "pendiente",
 			"deadline": 1633321591,
 			"created": 1630024021
 		}
