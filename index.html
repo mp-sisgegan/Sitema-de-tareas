@@ -1,0 +1,100 @@
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Sistema de tareas</title>
+
+</head>
+<body id="body">
+	<header>
+		<div class="header-container">
+			<img src="logo.jpg" alt="logo">
+			<button id="newTask" class="buttom">Crear tarea</button>
+		</div>
+	</header>
+	<main>
+		<div class="main-container">
+			<h1>Sistema de tareas</h1>
+			<div class="container">
+				<h2>Pendientes</h2>
+				<div class="task-container" id="todoTasks">
+				</div>
+			</div>
+
+			<div class="container">
+				<h2>En Proceso</h2>
+				<div class="task-container" id="inprogressTasks">
+				</div>
+			</div>
+			<div class="container">
+				<h2>Terminado</h2>
+				<div class="task-container" id="doneTasks">
+					
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<aside class="" id="formElement">
+		<div class="aside-container">
+			<h2>Nueva tarea</h2>
+			<div class="form-container">
+				<form id="formTask">
+					<div class="input-container">
+						<label for="titleTask">Titulo</label>
+						<input name="titleTask" id="titleTask" type="text" placeholder="Escriba un titulo" required>
+					</div>
+					<div class="input-container">
+						<label for="personTask">Responsable</label>
+						<select name="personTask" id="personTask" required>
+							<option value="">Seleccionar</option>
+							<option value="Melo">Melody Pasten</option>
+							<option value="Persona 2">Persona 2</option>
+							<option value="Persona 3">Persona 3</option>
+						</select>
+					</div>
+					<div class="input-container">
+						<label for="deadlineTask">Tiempo de entrega</label>
+						<select name="deadlineTask" id="deadlineTask">
+							<option value="">Seleccionar</option>
+							<option value="uno">Un día</option>
+							<option value="dos">Dos días</option>
+							<option value="Siete">Siete días</option>
+						</select>
+					</div>
+					<div class="action-container">
+						<button type="submit">Crear</button>
+						<button type="reset" id="cancelForm">Cancelar</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</aside>
+
+
+
+	<script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+	<!--fechas-->
+	<script type="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
+
+	<script type="text/javascript" src="https://hammerjs.github.io/dist/hammer.min.js"></script>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.8/lib/sortable.js"></script>
+
+
+
+
+	
+	<script type="text/javascript" src="helpers.js"></script>
+	<script type="text/javascript" src="dates.js"></script>
+	<script type="text/javascript" src="gestures.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+	<script type="text/javascript" src="draganddrop.js"></script>
+	<script type="text/javascript" src="form.js"></script>
+
+	
+	
+</body>
+</html>
